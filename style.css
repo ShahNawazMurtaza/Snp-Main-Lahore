@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');body{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: 'Cinzel', serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(241, 233, 233);
+    background-color: #f27168;
+    
+}
+
+.menu{
+    list-style-type: none;
+    margin: 12px 10px;
+    font-weight: 600;
+    font-size: 17px;
+    
+}
+
+.menu li  {
+    
+    list-style: none;
+    display: inline-block;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(241, 233, 233);
+    letter-spacing: 2px;
+}
+.navbar .menu li{
+    padding: 20px;
+}
+
+.navbar .menu li a:hover{
+ 
+    color: darkslategrey;
+    transition-duration: 0.4s;
+}
